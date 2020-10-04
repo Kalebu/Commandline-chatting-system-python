@@ -74,4 +74,4 @@ class client():
 if __name__ == '__main__':
 	Client = client()
 	Client.chat_room()
-	Client.close()
+
