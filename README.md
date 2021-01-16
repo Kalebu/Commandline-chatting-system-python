@@ -1,22 +1,24 @@
 # Commandline chat app in Python 
 
 
-## Intro 
-
-Hi Guys this repo consist of a source code for a simple 
-
-commandline chatting app made in python using socket 
-
-This repo is continuation of an [Article](https://kalebujordan.com/chat-application-python/) on [my blog](https://kalebujordan.com/)
-
-Therefore you can try checking first before playing with the source code 
+Intro
+------------
 
 
-## Getting started 
+Hi Guys this repo consist of a source code for a simple CLI chatting app made using sockets in Python 
 
-To get started just clone the repository using *git* command  or pressing download
 
-button option at the right side of the repository
+The original article
+----------------------
+
+This repo is continuation of an [Article](https://kalebujordan.com/chat-application-python/) on [my blog](https://kalebujordan.com/) so you might wanna review it to see a more brief tutorial on how it all works out.
+
+
+Getting started 
+--------------------
+
+
+To get started just clone the repository using *git* command  or pressing download button option at the right side of the repository
 
 **Cloning**
 
@@ -32,22 +34,15 @@ Commandline-chatting-system-python $ tree
 0 directories, 3 files
 ```
 
+This repo consist of two **Python scripts** named *client.py* and *server.py*as I have explained on the tutorial, whereby **server.py** will serve as our server node and **client.py** will serve as our client node. 
 
 
-This repo consist of two **Python scripts** named *client.py* and *server.py*
-
-as I have explained on the tutorial, whereby **server.py** will serve as our server node 
-
-and **client.py** will serve as our client node 
-
-
-### Running our scipt 
+Running our scipt 
+------------------
 
 **Note**
 
-You should start running the server script before running the client script because if you do 
-
-otherwise, the client will exit immediately as result of not finding a server node to connect
+You should start running the server script before running the client script because if you do otherwise, the client will exit immediately as result of not finding a server node to connect
 
 **running server.py**
 
@@ -67,20 +62,18 @@ Connection succesful made to the server
 
 **Note**
 
-If the server script is run on the different pc or laptop enter your server pubic IP on client 
+If the server script is run on the different pc or laptop enter your server pubic IP on client **enter ip** prompt 
 
-enter ip prompt 
+Explore it  
+-----------------
 
-## Do some chatting 
+Now youre script should be running and able to communicate with each other, you try writing message to any of those script and then press enter to send the message to the another node whether it's server or client 
 
-Now youre script should be running and able to communicate with each other, you try writing message to any of those script
-
-and then press enter to send the message to the another node whether it's server or client 
-
-
-### Share and Give it a star
+Give it a star 
+--------------
+Did you find this information useful, then give it a star 
 
 
-If you find it useful, don't be shy , share it will your fellow [Twitter](https://twitter.com/) and other dev communities
-
-
+Credits
+-----------
+All the credits to [kalebu](github.com/kalebu) 
